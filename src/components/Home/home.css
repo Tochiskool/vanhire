@@ -1,0 +1,49 @@
+.imgContainer {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.imageStyle {
+  min-width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 8/6;
+  filter: blur(2px);
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  z-index: 2;
+}
+.contentContainer h1 {
+  text-align: center;
+}
+.contentContainer p {
+  text-align: center;
+}
+
+/* About style */
+
+section .about-page-quote {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section p {
+  color: blue;
+  line-height: 2;
+  text-align: justify;
+  margin: 1rem;
+}
+section h3 {
+  text-decoration: blue underline;
+  text-align: center;
+}
