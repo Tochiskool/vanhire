@@ -26,6 +26,7 @@ a:hover {
 
 .active {
   color: blue;
+  background-color: blue;
 }
 .notActive {
   color: white;
